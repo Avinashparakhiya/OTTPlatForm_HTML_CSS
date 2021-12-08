@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    height: 3vw;
+    font-family: 'Lora', serif;
+    font-size: 1vw;
+    position: fixed;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 0px 10px;
+    color: aliceblue;
+}
+a:hover
+{
+    color: red;
+    font-weight:bold;
+}
+header
+{
+    height: 2 vh;
+    background-color: blue;
+}
+nav
+{
+display:flex;
+align-items: center;
+}
+nav:hover
+{
+    color: red;
+}
+.con
+{
+    min-height: calc(100vh-2vh-3vh);
+}
+.search
+{
+    padding: 0px 40px; 
+}
+.mySlides
+{
+    margin-top: 5px;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    margin-bottom: 5px;
+}
+input[type=text]
+{
+    width: 200px;
+    border-radius: 13px;
+}
+.button
+{
+    width: auto;
+border-radius: 1px;
+padding: -2px 53px;
+margin: -30px;
+}
+.slider
+{
+    max-width: 435px;
+margin: auto;
+}
+img
+{
+width: vw;
+}
+.card
+{
+    margin: auto;
+    display: flex;
+    overflow: scroll;
+}
+.card-item
+{
+    margin: 15px;
+}
+.lines
+{
+    text-align: center;
+    text-transform: capitalize
+}
+body
+{
+    background-color: 9c8f92;
+}
